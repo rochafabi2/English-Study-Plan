@@ -69,9 +69,13 @@ Integração na Lista de Vocabulário:
 Cada item na lista agora exibe o selo de status (Aprendido ou Revisar) e botões de ação rápida para alternar o estado com um clique.
 flag
 Checkpoint
+
+**Prompt**
 em portugues, Interview me one question at a time to gather everything you need to plan this app well. Ask about any details, rules, or potential mistakes I haven't mentioned yet.
 Gemini 3.7 Flash
 Ran for 5s
+
+**Resposta**
 Excelente! Vamos construir e refinar o planejamento do seu aplicativo de estudos de inglês passo a passo. Farei uma pergunta por vez para cobrirmos todos os detalhes essenciais, regras de negócio e casos de uso.
 Pergunta 1:
 Qual é o perfil e o objetivo principal do seu usuário ideal?
@@ -313,8 +317,11 @@ Pontuação de XP com subida de níveis de fluência e contador de ofensiva diá
 Painel de medalhas de conquista (Primeira Palavra, Maratonista, Diplomata da Conversação, Foco de Titânio, entre outras).
 flag
 Checkpoint
+
+**Prompt**
 em português responda Help me identify weak spots in your proposed logic. Name three specific situations where this app could give a wrong, confusing, or incomplete result.
 
+**Resposta**
 Analisando criticamente a arquitetura e a lógica implementada no aplicativo, aqui estão três situações específicas em que o app pode gerar resultados imprecisos, confusos ou incompletos:
 1. Avaliação de Pronúncia por Reconhecimento de Voz (STT vs. Fonética)
 Onde ocorre: Na tela de Diálogos & Prática de Fala (SpeechRecognitionHelper).
